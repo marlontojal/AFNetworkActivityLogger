@@ -403,7 +403,7 @@
 				29D96E611BCC34CD00F571A5 /* Frameworks */,
 				29D96E621BCC34CD00F571A5 /* Headers */,
 				29D96E631BCC34CD00F571A5 /* Resources */,
-				29D96E771BCC36E700F571A5 /* ShellScript */,
+				A65C6B581C9ABE2700878FCD /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -602,7 +602,7 @@
 			shellPath = "/usr/local/bin/carthage copy-frameworks";
 			shellScript = "";
 		};
-		29D96E771BCC36E700F571A5 /* ShellScript */ = {
+		A65C6B581C9ABE2700878FCD /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -613,8 +613,8 @@
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = "/usr/local/bin/carthage copy-frameworks";
-			shellScript = "";
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -1142,6 +1142,7 @@
 				29F28C331C1F2628006BD785 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		29F28C441C1F2C54006BD785 /* Build configuration list for PBXNativeTarget "AFNetworkActivityLoggerTests OS X Tests" */ = {
 			isa = XCConfigurationList;
@@ -1150,6 +1151,7 @@
 				29F28C461C1F2C54006BD785 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
